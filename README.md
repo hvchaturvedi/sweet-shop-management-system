@@ -181,17 +181,16 @@ They helped me focus more on clean architecture, correctness, and user experienc
 
 AI acted as a pair programmer and learning aid, but the ownership of the code, design decisions, and final output remains entirely mine.
 
-✅ Assignment Completion Status
+Screenshots
+🔐 Authentication
 
-✔ Backend API implemented
-✔ Database integration
-✔ JWT authentication
-✔ Role-based admin access
-✔ Frontend SPA
-✔ Search & purchase functionality
-✔ Admin add/update/delete UI
-✔ Clean and responsive design
-✔ AI usage documented
+Login Page
+<img width="1358" height="624" alt="loginpage" src="https://github.com/user-attachments/assets/cd5ad9f3-6bcd-482b-a18d-3b950ea1b0d7" />
+
+User login screen with email and password fields.
+
+Register Page
+New user registration screen.
 
 📌 Notes
 
@@ -203,3 +202,4 @@ Inventory is shared across all users, reflecting a real-world sweet shop scenari
 
 This project demonstrates a complete, secure, and user-friendly full-stack application built with modern tools and best practices.
 It fulfills all requirements of the TDD Kata Sweet Shop Management System assignment.
+
