@@ -70,6 +70,23 @@ export const deleteSweet = async (req: Request, res: Response) => {
   await Sweet.findByIdAndDelete(req.params.id);
   res.json({ message: "Sweet deleted successfully" });
 };
+export const updateSweet = async (req: Request, res: Response) => {
+  try {
+    const sweet = await Sweet.findByIdAndUpdate(
+      req.params.id,
+      req.body,
+      { new: true }
+    );
+
+    if (!sweet) {
+      return res.status(404).json({ message: "Sweet not found" });
+    }
+
+    res.json(sweet);
+  } catch {
+    res.status(500).json({ message: "Failed to update sweet" });
+  }
+};
 
 // GET ALL SWEETS
 export const getSweets = async (_: Request, res: Response) => {
