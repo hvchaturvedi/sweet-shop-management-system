@@ -184,14 +184,43 @@ AI acted as a pair programmer and learning aid, but the ownership of the code, d
 Screenshots
 🔐 Authentication
 
-Login Page
+Login Page:
 <img width="1358" height="624" alt="loginpage" src="https://github.com/user-attachments/assets/cd5ad9f3-6bcd-482b-a18d-3b950ea1b0d7" />
 
 User login screen with email and password fields.
 
-Register Page
-New user registration screen.
+Register Page:
+<img width="1336" height="602" alt="Register" src="https://github.com/user-attachments/assets/46fd7f37-6251-4eac-83f4-1fd8bf8c9700" />
 
+New user registration screen.
+🍬 Sweets Dashboard
+
+Dashboard – View All Sweets
+Displays all available sweets with price and quantity.
+<img width="1347" height="614" alt="Dashboard" src="https://github.com/user-attachments/assets/f8a2820a-d3f8-4d92-bd99-5419a359d34e" />
+.
+
+🛒 Purchase Flow
+
+Purchase Sweet (Quantity Available)
+Purchase button enabled when stock is available.
+
+Out of Stock State
+Purchase button disabled when quantity is zero.
+Search Functionality
+Search sweets by name using the search bar.
+
+🛠️ Admin Panel (Admin Users Only)
+<img width="1347" height="605" alt="AdminPanel" src="https://github.com/user-attachments/assets/579bc7c3-cfa6-4ae2-b2f6-c5041b22aec4" />
+
+Add New Sweet
+Admin form to add a new sweet.
+
+Update Sweet
+Admin editing existing sweet details.
+
+Delete Sweet
+Admin deleting a sweet from inventory.
 📌 Notes
 
 Non-admin users correctly receive 403 Forbidden for admin-only actions.
